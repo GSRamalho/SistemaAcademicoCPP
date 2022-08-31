@@ -2,6 +2,9 @@
 #include <string.h>
 Universidade::Universidade()
 {
+    Departamento D;
+    D.setId(1);
+    D.setNomeDpto("DAINF");
 
 }
 Universidade::~Universidade()

@@ -10,7 +10,6 @@ Principal::Principal()
     int mesAtual = aTime->tm_mon + 1; 
     int anoAtual = aTime->tm_year + 1900;
 
-    executar();
 }
 
 void Principal::executar()

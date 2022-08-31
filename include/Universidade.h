@@ -1,3 +1,4 @@
+#include "../include/Departamento.h"
 class Universidade
 {
     private:
