@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <iostream>
 using namespace std;
 
 class Principal
@@ -9,6 +10,5 @@ class Principal
         int anoAtual;
     public:
         Principal();
-        ~Principal();
         void executar();
 };

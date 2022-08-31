@@ -1,2 +1,2 @@
 default:
-	g++ Principal.cpp -o ./build/sisacad
+	g++ Principal.cpp Main.cpp -o ./build/sisacad
