@@ -10,9 +10,13 @@ Principal::Principal()
     int mesAtual = aTime->tm_mon + 1; 
     int anoAtual = aTime->tm_year + 1900;
 
-    cout << diaAtual << "/"<< mesAtual<< "/" << anoAtual << endl;
+    executar();
 }
 
 void Principal::executar()
 {
+    Universidade A;
+    A.setNome("UTFPR");
+    cout<<A.getNome()<< endl;
+
 }
