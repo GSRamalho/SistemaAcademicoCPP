@@ -1,4 +1,4 @@
-#include "Principal.h"
+#include "../include/Principal.h"
 
 int main()
 {
