@@ -19,18 +19,19 @@ void Pessoa::Inicializa ( int dia, int mes, int ano, char* nome)
 }
 void Pessoa::Calc_Idade ( int diaAT, int mesAT, int anoAT )
 {
-    idadeP = anoAT-idadeP;
+    this->idadeP = anoAT-this->anoP;
     
     if(mesAT<mesP)
     {
-        idadeP--;
+        this->idadeP--;
     }
     else if(mesAT==mesP && diaAT<diaP)
     {
-        idadeP--;
+        this->idadeP--;
     }
 
 }
+
 int Pessoa::informaIdade()
 {
     return idadeP;

@@ -12,7 +12,7 @@ protected:
 public:
     Pessoa ( int dia, int mes, int ano, char* nome = "" );
     Pessoa ( );
-    ~Pessoa ( ) { }
+    ~Pessoa ( ) {}
     void Inicializa (int dia, int mes, int ano, char* nome = "" );
     void Calc_Idade (int diaAT, int mesAT, int anoAT );
     int informaIdade ( );

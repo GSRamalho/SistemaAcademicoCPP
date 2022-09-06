@@ -14,8 +14,14 @@ Principal::Principal()
 
 void Principal::executar()
 {
+    cout << "Data atual: " << diaAtual<< "/"<<mesAtual << "/" << anoAtual  << endl;
     Universidade A;
     A.setNome("UTFPR");
     cout<<A.getNome()<< endl;
+
+    Pessoa P;
+    P.Inicializa(16, 1, 2002, "Guilherme");
+    P.Calc_Idade(diaAtual, mesAtual, anoAtual);
+    cout <<"Idade de " << P.getNome() << ": "<<P.informaIdade() << endl;
 
 }

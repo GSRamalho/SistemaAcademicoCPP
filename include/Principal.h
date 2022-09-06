@@ -1,5 +1,5 @@
 #include "Universidade.h"
-
+#include "Pessoa.h"
 #include <stdio.h>
 #include <iostream>
 using namespace std;
