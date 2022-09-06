@@ -10,10 +10,10 @@ protected:
     char nomeP[ 30 ];
     int id;
 public:
-    Pessoa ( int diaNa, int mesNa, int anoNa, char* nome = "" );
+    Pessoa ( int dia, int mes, int ano, char* nome = "" );
     Pessoa ( );
     ~Pessoa ( ) { }
-    void Inicializa (int diaNa, int mesNa, int anoNa, char* nome = "" );
+    void Inicializa (int dia, int mes, int ano, char* nome = "" );
     void Calc_Idade (int diaAT, int mesAT, int anoAT );
     int informaIdade ( );
     void seId ( int i ) { id = i; }

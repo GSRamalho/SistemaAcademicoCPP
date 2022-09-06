@@ -6,9 +6,9 @@ Principal::Principal()
     time_t theTime = time(NULL);
     struct tm *aTime = localtime(&theTime);
 
-    int diaAtual = aTime->tm_mday;
-    int mesAtual = aTime->tm_mon + 1; 
-    int anoAtual = aTime->tm_year + 1900;
+    diaAtual = aTime->tm_mday;
+    mesAtual = aTime->tm_mon + 1; 
+    anoAtual = aTime->tm_year + 1900;
 
 }
 
