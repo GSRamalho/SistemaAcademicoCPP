@@ -14,5 +14,4 @@ class Professor: public Pessoa
         void setDpto(Departamento* dpto);
         void informaDpto();
         void informaUni();
-
 };

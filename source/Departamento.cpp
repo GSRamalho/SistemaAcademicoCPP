@@ -26,3 +26,13 @@ char* Departamento::getNomeDpto()
 {
     return nomeDpto;
 }
+
+void Departamento::setUniversidade(Universidade* pu)
+{
+    pUni = pu;
+}
+
+Universidade* Departamento::getUniversidade()
+{
+    return pUni;
+}
