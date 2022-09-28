@@ -1,11 +1,11 @@
-#include "./Disciplina.h"
-
+#include "./Departamento.h"
 class Disciplina
 {
     private:
         Departamento* dptoAssociado;
         char nome[150];
         char areaConhecimento[50];
+        int id;
     public:
         Disciplina(char* ac = "");
         ~Disciplina();
